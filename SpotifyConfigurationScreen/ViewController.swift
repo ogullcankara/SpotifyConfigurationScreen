@@ -25,12 +25,11 @@ class ViewController: UIViewController {
     
     func setupViews(){
         
-       // let offLineLabel =
+        let offlineLabel = makeLabel(withText: "Offline")
         
     }
     
-    func makeLabel(withText : String){
-        
-    }
+    
+    
 }
 

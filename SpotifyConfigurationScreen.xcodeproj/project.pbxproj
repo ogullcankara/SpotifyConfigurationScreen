@@ -16,6 +16,7 @@
 		0A442A8B28F4A14600048D36 /* SpotifyConfigurationScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A442A8A28F4A14600048D36 /* SpotifyConfigurationScreenTests.swift */; };
 		0A442A9528F4A14600048D36 /* SpotifyConfigurationScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A442A9428F4A14600048D36 /* SpotifyConfigurationScreenUITests.swift */; };
 		0A442A9728F4A14600048D36 /* SpotifyConfigurationScreenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A442A9628F4A14600048D36 /* SpotifyConfigurationScreenUITestsLaunchTests.swift */; };
+		0A442AA428F4B9F500048D36 /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A442AA328F4B9F500048D36 /* Factories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0A442A9028F4A14600048D36 /* SpotifyConfigurationScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyConfigurationScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A442A9428F4A14600048D36 /* SpotifyConfigurationScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyConfigurationScreenUITests.swift; sourceTree = "<group>"; };
 		0A442A9628F4A14600048D36 /* SpotifyConfigurationScreenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyConfigurationScreenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A442AA328F4B9F500048D36 /* Factories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				0A442A7328F4A14500048D36 /* AppDelegate.swift */,
 				0A442A7528F4A14500048D36 /* SceneDelegate.swift */,
 				0A442A7728F4A14500048D36 /* ViewController.swift */,
+				0A442AA328F4B9F500048D36 /* Factories.swift */,
 				0A442A7928F4A14500048D36 /* Main.storyboard */,
 				0A442A7C28F4A14600048D36 /* Assets.xcassets */,
 				0A442A7E28F4A14600048D36 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				0A442A7828F4A14500048D36 /* ViewController.swift in Sources */,
 				0A442A7428F4A14500048D36 /* AppDelegate.swift in Sources */,
+				0A442AA428F4B9F500048D36 /* Factories.swift in Sources */,
 				0A442A7628F4A14500048D36 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
