@@ -9,11 +9,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let margin : CGFloat = 20
+    let spacing : CGFloat = 32
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupNavigationBar()
+        setupViews()
     }
 
 
+    func setupNavigationBar(){
+        navigationItem.title = "Playback"
+    }
+    
+    func setupViews(){
+        
+       // let offLineLabel =
+        
+    }
+    
+    func makeLabel(withText : String){
+        
+    }
 }
 
