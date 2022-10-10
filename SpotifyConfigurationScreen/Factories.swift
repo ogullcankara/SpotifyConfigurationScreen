@@ -11,7 +11,7 @@ func makeLabel(withText text:String) -> UILabel{
     let label = UILabel()
     label.translatesAutoresizingMaskIntoConstraints = false
     label.text = text
-    label.textColor = .black
+    label.textColor = .white
     label.font = UIFont.systemFont(ofSize: 17)
     
     return label

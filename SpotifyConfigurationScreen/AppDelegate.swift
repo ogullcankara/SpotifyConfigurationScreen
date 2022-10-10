@@ -16,16 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.backgroundColor = .black
+        window?.backgroundColor = .red
         window?.makeKeyAndVisible()
         
         let navigationController = UINavigationController(rootViewController: ViewController())
         
         window?.rootViewController = navigationController
         
-        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white]
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.darkOrange]
         UINavigationBar.appearance().isTranslucent = false
-        UINavigationBar.appearance().barTintColor = UIColor.systemBlue
+        UINavigationBar.appearance().barTintColor = .offBlack
         
         return true
     }
